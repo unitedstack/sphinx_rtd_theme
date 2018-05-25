@@ -1,11 +1,11 @@
 include *.txt
 include LICENSE
-recursive-include sphinx_rtd_theme *.conf
-recursive-include sphinx_rtd_theme *.css
-recursive-include sphinx_rtd_theme *.eot
-recursive-include sphinx_rtd_theme *.html
-recursive-include sphinx_rtd_theme *.js
-recursive-include sphinx_rtd_theme *.svg
-recursive-include sphinx_rtd_theme *.ttf
-recursive-include sphinx_rtd_theme *.woff
-recursive-include sphinx_rtd_theme *.woff2
+recursive-include sphinx_ustack_theme *.conf
+recursive-include sphinx_ustack_theme *.css
+recursive-include sphinx_ustack_theme *.eot
+recursive-include sphinx_ustack_theme *.html
+recursive-include sphinx_ustack_theme *.js
+recursive-include sphinx_ustack_theme *.svg
+recursive-include sphinx_ustack_theme *.ttf
+recursive-include sphinx_ustack_theme *.woff
+recursive-include sphinx_ustack_theme *.woff2

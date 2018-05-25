@@ -5,7 +5,7 @@ From https://github.com/ryan-roemer/sphinx-bootstrap-theme.
 """
 from os import path
 
-__version__ = '0.3.1'
+__version__ = '0.0.1'
 __version_full__ = __version__
 
 
@@ -16,4 +16,4 @@ def get_html_theme_path():
 
 # See http://www.sphinx-doc.org/en/stable/theming.html#distribute-your-theme-as-a-python-package
 def setup(app):
-    app.add_html_theme('sphinx_rtd_theme', path.abspath(path.dirname(__file__)))
+    app.add_html_theme('sphinx_ustack_theme', path.abspath(path.dirname(__file__)))

@@ -1,54 +1,34 @@
 
-**************************
-Read the Docs Sphinx Theme
-**************************
-
-.. image:: https://img.shields.io/pypi/v/sphinx_rtd_theme.svg
-   :target: https://pypi.python.org/pypi/sphinx_rtd_theme
-   :alt: Pypi Version 
-.. image:: https://travis-ci.org/rtfd/sphinx_rtd_theme.svg?branch=master
-   :target: https://travis-ci.org/rtfd/sphinx_rtd_theme
-   :alt: Build Status
-.. image:: https://img.shields.io/pypi/l/sphinx_rtd_theme.svg
-   :target: https://pypi.python.org/pypi/sphinx_rtd_theme/
-   :alt: License
-.. image:: https://readthedocs.org/projects/sphinx-rtd-theme/badge/?version=latest
-  :target: http://sphinx-rtd-theme.readthedocs.io/en/latest/?badge=latest
-  :alt: Documentation Status
-
-The ``sphinx_rtd_theme`` is a sphinx_ theme designed to look modern and be mobile-friendly.
-This theme is primary focused to be used on readthedocs.org_ but can work with your
-own sphinx projects. To read more and see a working demo_ head over to readthedocs.org_.
-
-.. _sphinx: http://www.sphinx-doc.org
-.. _readthedocs.org: http://www.readthedocs.org
-.. _demo: https://sphinx-rtd-theme.readthedocs.io/en/latest/
 
 
-Installing
+====================
+sphxin_ustack_theme
+====================
+
+
+``sphinx_ustack_theme`` 基于 ``sphinx_rtd_theme`` 主题修改而成，原主题请点击 这里_。
+
+
+.. _这里: https://github.com/rtfd/sphinx_rtd_theme
+
+安装
 ==========
 
-The theme is distributed on PyPI_ and can be installed with pip::
+使用pip安装:
 
-   pip install sphinx_rtd_theme
-
-For more information read the full installing docs
-`here <https://sphinx-rtd-theme.readthedocs.io/en/latest/installing.html>`__.
-
-.. _PyPI: https://pypi.python.org/pypi/sphinx_rtd_theme
+   pip install sphinx_ustack_theme
 
 
-Configuration
+配置
 =============
 
-The ``sphinx_rtd_theme`` is highly customizable on both the page level and on a global level.
-To see all the possible configuration options read the configuring docs
-`here <https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html>`__.
+使用本主题请在 ``conf.py`` 文件中包含下列代码来引入本主题
+
+  import sphinx_ustack_theme
+  
+  html_theme = 'sphinx_ustack_theme'
+
+其他配置请参考 ``sphinx_rtd_theme`` 主题，点击 `这里 <https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html>`__。
 
 
-Contributing
-============
 
-If you would like to help improve the theme or have more control
-over the theme in case of a fork please read our contributing guide
-`here <https://sphinx-rtd-theme.readthedocs.io/en/latest/contributing.html>`__.
