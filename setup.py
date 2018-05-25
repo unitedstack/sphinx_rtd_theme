@@ -1,26 +1,26 @@
 # -*- coding: utf-8 -*-
-"""`sphinx_rtd_theme` lives on `Github`_.
+"""`sphinx_ustack_theme` lives on `Github`_.
 
-.. _github: https://github.com/rtfd/sphinx_rtd_theme
+.. _github: https://github.com/unitedstack/sphinx_rtd_theme
 
 """
 from io import open
 from setuptools import setup
-from sphinx_rtd_theme import __version__
+from sphinx_ustack_theme import __version__
 
 
 setup(
-    name='sphinx_rtd_theme',
+    name='sphinx_ustack_theme',
     version=__version__,
-    url='https://github.com/rtfd/sphinx_rtd_theme/',
+    url='https://github.com/unitedstack/sphinx_rtd_theme',
     license='MIT',
-    author='Dave Snider, Read the Docs, Inc. & contributors',
-    author_email='dev@readthedocs.org',
+    author='Yin Yang',
+    author_email='yybnbn@126.com',
     description='Read the Docs theme for Sphinx',
     long_description=open('README.rst', encoding='utf-8').read(),
     zip_safe=False,
-    packages=['sphinx_rtd_theme'],
-    package_data={'sphinx_rtd_theme': [
+    packages=['sphinx_ustack_theme'],
+    package_data={'sphinx_ustack_theme': [
         'theme.conf',
         '*.html',
         'static/css/*.css',
@@ -31,7 +31,7 @@ setup(
     # See http://www.sphinx-doc.org/en/stable/theming.html#distribute-your-theme-as-a-python-package
     entry_points = {
         'sphinx.html_themes': [
-            'sphinx_rtd_theme = sphinx_rtd_theme',
+            'sphinx_ustack_theme = sphinx_ustack_theme',
         ]
     },
     classifiers=[
