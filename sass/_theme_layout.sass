@@ -402,3 +402,162 @@ footer
     display: none
   .wy-nav-content-wrap
     margin-left: 0
+
+
+
+
+
+
+
+/*ustack style*/
+
+body
+  font-family: 'Microsoft YaHei', Helvetica,Arial, sans-serif!important
+  
+.wy-side-nav-search
+  background-color: #01AFC9 
+  margin-bottom: 0
+  > div.version
+    color: #FFFFFF
+.wy-nav-side
+  background-color: #fff
+  border-right: 1px solid #E8E8E8
+
+#rtd-search-form
+  input[type='text']
+    display: inline-block
+    height: 40px
+    width: 270px
+    background-color: #FFFFFF
+    border: 1px solid #EDEDED
+    border-radius: 2px
+    border-shadow: none
+    margin-bottom: 28px
+
+.wy-menu.wy-menu-vertical
+  padding-top: 40px
+  p.caption
+    font-size: 14px
+    color: rgba(37,47,61,0.85)
+    line-height: 22px
+  ul + p.caption
+    margin-bottom: 10px
+    margin-top: 32px
+  a.reference.internal
+    font-size: 14px
+    color: #6C777A
+    line-height: 22px
+    padding-bottom: 8px
+    padding-top: 8px
+    &:hover
+      background-color: rgba(1,175,201,0.10)
+      color: #01AFC9
+      border-right: 1px solid #01AFC9
+  li.current
+    a
+      span.toctree-expand
+        display: none
+  li.toctree-l1.current
+    background-color: #fff
+    border-right: none
+    a
+      border: none
+      background-color: #fff
+      &:hover
+        background-color: rgba(1,175,201,0.10)
+        color: #01AFC9
+        border-right: 1px solid #01AFC9
+    li.toctree-l2.current
+      background-color: #fff
+      border-right: none
+      a
+        background-color: #fff
+        border-right: none
+        &:hover
+          background-color: rgba(1,175,201,0.10)
+          color: #01AFC9
+          border-right: 1px solid #01AFC9
+      li.toctree-l3.current
+        background-color: #fff
+        border-right: none
+        a
+          background-color: #fff
+          border-right: none
+          &:hover
+            background-color: rgba(1,175,201,0.10)
+            color: #01AFC9
+            border-right: 1px solid #01AFC9
+
+.wy-nav-content
+  max-width: 100%
+  .rst-content
+    h1, h2, h3, h4, h5, h6
+      color: #252F3D
+      letter-spacing: 1px
+      line-height: 40px
+      font-weight: normal
+    h1
+      font-size: 28px
+    h2
+      font-size: 26px
+    h3
+      font-size: 22px
+    h4
+      font-size: 20px
+    h5
+      font-size: 20px
+    h6
+      font-size: 20px
+    a.reference
+      font-size: 14px
+      color: #01AFC9
+      line-height: 21px
+    li.toctree-l1
+      a
+        font-size: 14px
+    li.toctree-l2, li.toctree-l3
+      a
+        font-size: 12px
+    p, li, table.docutils td, table.docutils th, table caption span
+      font-size: 14px
+      color: #393C40
+      letter-spacing: 0.5px
+      line-height: 24px
+      font-style: normal
+      font-weight: normal
+    pre, code, span
+      font-size: 12px
+.rst-footer-buttons
+  a.btn.btn-neutral
+    background-color: #01AFC9!important
+    border-radius: 2px
+    font-size: 12px
+    color: #FFFFFF!important
+    background-image: none
+    box-shadow: none
+.admonition
+  a
+    span
+      color: #01AFC9
+#search-results
+  a
+    color: #01AFC9
+
+footer
+  color: #393C40
+  font-size: 14px
+  a 
+    color: #01AFC9
+    font-size: 14px
+  div, p
+    color: #393C40
+    font-size: 14px
+    
+@media screen and (min-width: $nav-media-query)
+  .wy-nav-content-wrap
+    background: none
+
+// 小屏
+.wy-nav-top
+  background-color: #01AFC9
+
