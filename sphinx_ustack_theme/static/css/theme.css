@@ -5269,6 +5269,7 @@ body {
 
 .wy-nav-side {
   background-color: #fff;
+  border-right: 1px solid #E8E8E8;
 }
 
 #rtd-search-form input[type='text'] {
@@ -5283,7 +5284,6 @@ body {
 }
 
 .wy-menu.wy-menu-vertical {
-  border-right: 1px solid #E8E8E8;
   padding-top: 40px;
 }
 .wy-menu.wy-menu-vertical p.caption {
@@ -5350,6 +5350,9 @@ body {
   border-right: 1px solid #01AFC9;
 }
 
+.wy-nav-content {
+  max-width: 100%;
+}
 .wy-nav-content .rst-content h1, .wy-nav-content .rst-content h2, .wy-nav-content .rst-content .toctree-wrapper p.caption, .wy-nav-content .rst-content h3, .wy-nav-content .rst-content h4, .wy-nav-content .rst-content h5, .wy-nav-content .rst-content h6 {
   color: #252F3D;
   letter-spacing: 1px;
@@ -5395,7 +5398,6 @@ body {
 }
 .wy-nav-content .rst-content pre, .wy-nav-content .rst-content tt, .wy-nav-content .rst-content code, .wy-nav-content .rst-content span {
   font-size: 12px;
-  color: #393C40;
 }
 
 .rst-footer-buttons a.btn.btn-neutral {
@@ -5407,6 +5409,32 @@ body {
   box-shadow: none;
 }
 
+.admonition a span {
+  color: #01AFC9;
+}
+
+#search-results a {
+  color: #01AFC9;
+}
+
+footer {
+  color: #393C40;
+  font-size: 14px;
+}
+footer a {
+  color: #01AFC9;
+  font-size: 14px;
+}
+footer div, footer p {
+  color: #393C40;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 1100px) {
+  .wy-nav-content-wrap {
+    background: none;
+  }
+}
 .wy-nav-top {
   background-color: #01AFC9;
 }
